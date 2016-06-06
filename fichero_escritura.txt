@@ -1,0 +1,15 @@
+Uno
+Dos
+Tres
+Cuatro
+Cinco
+Seis
+Siete
+ocho
+nueve
+diez
+once
+doce
+trece
+catorce
+...
