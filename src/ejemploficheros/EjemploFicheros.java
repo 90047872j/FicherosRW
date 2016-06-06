@@ -16,11 +16,9 @@ import java.util.Scanner;
 public class EjemploFicheros {
 
    public static void main(String[] args) {
-
 		// Fichero del que queremos leer
 		File fichero = new File("fichero_leer.txt");
 		Scanner s = null;
-
 		try {
 			// Leemos el contenido del fichero
 			System.out.println("... Leemos el contenido del fichero ...");
@@ -32,7 +30,7 @@ public class EjemploFicheros {
 				String linea = s.nextLine(); 	
                                 a = a+Integer.parseInt(linea);
                                 cont++;
-				System.out.println("La línea "+cont+", es: "+linea);
+				System.out.println("_La_ línea "+cont+", es: "+linea);
 			}
                         System.out.println("La media es: "+a/cont);
 		} catch (Exception ex) {
